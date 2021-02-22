@@ -1,11 +1,11 @@
 
 public abstract class Enemy {
 	
-	public double health = 100;
+	protected double health;
 	protected double speed;
 	protected double damage;
-	public double attackModifiers = 1;
-	protected double healthModifiers = 0;
+	protected double attackModifiers;
+	protected double healthModifiers;
 	public abstract void attack();
 	
 	public void takeDamage(double damage)

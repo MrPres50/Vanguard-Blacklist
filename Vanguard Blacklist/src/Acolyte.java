@@ -2,6 +2,7 @@
 public class Acolyte extends Hive {
 	
 	protected double speed;
+	protected double health;
 	
 	public void attack()
 	{

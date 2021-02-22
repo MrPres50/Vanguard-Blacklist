@@ -1,6 +1,20 @@
 
 public class Dreg extends Fallen{
-	protected double speed = 7;
+	
+	protected double health;
+	protected double speed;
+	protected double damage;
+	protected double attackModifiers;
+	protected double healthModifiers;
+	
+	public Dreg (double h, double s, double d, double aM, double hM)
+	{
+		health = h;
+		speed = s;
+		damage = d;
+		attackModifiers = aM;
+		healthModifiers = hM;
+	}
 	
 	
 	public void attack()
